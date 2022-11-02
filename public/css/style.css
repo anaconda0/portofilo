@@ -1,0 +1,41 @@
+body{
+    height: 100vh;
+    background: rgb(34,167,240);
+    background: linear-gradient(140deg, rgba(31,71,136,1) 0%, rgba(25,181,254,1) 100%);
+}
+.wrapper{
+    position: fixed;
+    width: 80vw;
+    background-color: white;
+    height:80vh ;
+  left:10vw;
+    top:10vh;
+}
+.leftSide{
+    position: absolute;
+    left: 0;
+    top:-5%;
+    height: 110%;
+    background-color: white;
+    width: 40%;
+    overflow: hidden;
+}
+.bottomPart{
+    clip-path: polygon(48% 30%, 100% 0, 100% 100%, 0 100%, 0 0);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 63%;
+    width: 100%;
+    background-color: white;
+    padding-top: 120px;
+}
+.rightSide{
+    position: absolute;
+    right: 0;
+    top:0;
+    height: 100%;
+    width: 60%;
+    overflow: auto;
+    padding: 5%;
+}
